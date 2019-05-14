@@ -1,0 +1,26 @@
+<html><body>
+<table border="1" cellpadding="7" cellspacing="7">
+  <tr>
+    <th width="50px">No</th>
+    <th>Page 1</th>
+    <th>Page 2</th>
+    <th>Page 3</th>
+    <th>Count accessed</th>
+  </tr>
+  <% if(data.length){ 
+    for(var i = 0;i < data.length;i++) { %>
+  <tr>
+    <td><%=(i+1)%></td>
+    <td><%=data[i][0]%></td>
+    <td><%=data[i][1]%></td>
+    <td><%=data[i][2]%></td>
+    <td><%=data[i][3]%></td>
+  </tr>
+  <% }
+  }else{ %>
+  <tr>
+    <td colspan="3">No data to display</td>
+  </tr>
+<% } %>
+</table>
+</body></html>

@@ -1,0 +1,18 @@
+{
+  "name": "IA_Challenge_SeanLeeka",
+  "version": "0.0.1",
+  "description": "InspiringApps Node.js Coding Challenge by Sean Leeka June 2018",
+  "main": "IA_Challenge_SeanLeeka.js",
+  "dependencies": {
+    "node-clf-parser": "git+ssh://git@github.com:jfhbrook/node-clf-parser.git",
+    "ejs": "~2.6.1",
+    "express": "~4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
