@@ -3,7 +3,7 @@
 // A simple Node.js app using the Express framework
 //	to download, parse, analyze, and display an Apache log
 //	(three most common sequentially-accessed pages, unique to IP address)
-// Inspiring Apps coding challenge
+//  coding challenge
 // 27 June 2018
 /***********************************************************************/
 
